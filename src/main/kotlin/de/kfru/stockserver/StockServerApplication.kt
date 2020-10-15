@@ -35,4 +35,4 @@ class RestController{
 
 }
 
-data class StockPrices (val symbol: String, val price: Double, val date: LocalDateTime)
+data class StockPrices (val symbol: String, val price: Double, val time: LocalDateTime)
