@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false">
         <compilerSettings>
@@ -41,7 +44,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/kotlin" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="openjdk-15" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-webflux:2.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.3.4.RELEASE" level="project" />
